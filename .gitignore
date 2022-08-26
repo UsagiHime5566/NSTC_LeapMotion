@@ -10,6 +10,14 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+/LeapMotionMainPC/[Ll]ibrary/
+/LeapMotionMainPC/[Tt]emp/
+/LeapMotionMainPC/[Oo]bj/
+/LeapMotionMainPC/[Bb]uild/
+/LeapMotionMainPC/[Bb]uilds/
+/LeapMotionMainPC/[Ll]ogs/
+/LeapMotionMainPC/[Mm]emoryCaptures/
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
