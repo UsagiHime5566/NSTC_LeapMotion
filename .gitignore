@@ -18,6 +18,14 @@
 /LeapMotionMainPC/[Ll]ogs/
 /LeapMotionMainPC/[Mm]emoryCaptures/
 
+/ArtSpaceMobileApp/[Ll]ibrary/
+/ArtSpaceMobileApp/[Tt]emp/
+/ArtSpaceMobileApp/[Oo]bj/
+/ArtSpaceMobileApp/[Bb]uild/
+/ArtSpaceMobileApp/[Bb]uilds/
+/ArtSpaceMobileApp/[Ll]ogs/
+/ArtSpaceMobileApp/[Mm]emoryCaptures/
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
