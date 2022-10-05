@@ -13,8 +13,12 @@ public class TouchPanel : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public Vector2 posInPanel;
     public Image ball;
 
+    public SignalClient signal;
     bool createFish = false;
     float lastCreateTime;
+
+    public float sendPeriod = 0.2f;
+    float lastSendTime;
 
     void Awake(){
         ptouch = GetComponent<Image>();
@@ -49,6 +53,13 @@ public class TouchPanel : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
                 fish.rectTransform.anchoredPosition = posInPanel;
             }
+
+            if((Time.time - lastSendTime) > sendPeriod){
+                string msg = "" + posInPanel.x + "," + posInPanel.y;
+                signal.SocketSend(msg);
+            }
         }
+
+        
     }
 }
