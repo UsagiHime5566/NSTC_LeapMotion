@@ -115,8 +115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02761efe598a45c98fa1baf4d446c6a7, type: 3}
   m_Name: ExampleFlowGraph
   m_EditorClassIdentifier: 
-  EditorPosition: {x: 0, y: 0, z: 0}
-  EditorScale: {x: 1, y: 1, z: 1}
+  EditorPosition: {x: -103, y: 226, z: 0}
+  EditorScale: {x: 2.0113573, y: 2.0113573, z: 1}
   Id: 297b530e-b5fd-43a6-abb2-f788baa062bf
   GraphName: Flow Graph
   GraphDescription: 
@@ -178,7 +178,7 @@ MonoBehaviour:
   CanBeDeleted: 1
   Passthrough: 0
   ClearGraphHistory: 0
-  Position: {x: 389.02457, y: -26.000015}
+  Position: {x: 389, y: -25.999996}
   OnEnterShowViews:
   - Id:
       Category: Example

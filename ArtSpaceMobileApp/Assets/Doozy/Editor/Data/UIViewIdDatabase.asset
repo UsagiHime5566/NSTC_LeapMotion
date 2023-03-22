@@ -13,4 +13,14 @@ MonoBehaviour:
   m_Name: UIViewIdDatabase
   m_EditorClassIdentifier: 
   Database:
-    Items: []
+    Items:
+    - Category: Main
+      Name: Home
+    - Category: More
+      Name: Contact
+    - Category: More
+      Name: Group
+    - Category: More
+      Name: Info
+    - Category: None
+      Name: None
