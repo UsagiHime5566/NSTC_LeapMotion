@@ -1,71 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8004742925440169184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b2479a69f56cf54c96de81c44e8ad1a, type: 3}
-  m_Name: Portal
-  m_EditorClassIdentifier: 
-  FlowGraphId: 935df7bc-58ca-403e-bb28-a1b03e41a6a9
-  NodeId: ce3516dc-6b53-44f4-bf4c-5163b884de38
-  NodeType: 1
-  NodeName: Tab UIMenu
-  NodeDescription: 
-  InputPorts: []
-  OutputPorts:
-  - NodeId: ce3516dc-6b53-44f4-bf4c-5163b884de38
-    PortId: b558f6a2-9e70-49bd-9f63-95ddd1d4dd57
-    Direction: 1
-    Capacity: 0
-    Connections:
-    - 77eb7254-3d95-4ee1-aefa-3b196a6bda9f
-    Value: 
-    ValueTypeQualifiedName: 
-    CanBeDeleted: 0
-    CanBeReordered: 0
-  RunUpdate: 0
-  RunFixedUpdate: 0
-  RunLateUpdate: 0
-  NodeState: 0
-  CanBeDeleted: 1
-  Passthrough: 1
-  ClearGraphHistory: 0
-  Position: {x: -161, y: 416}
-  Trigger: 2
-  SignalPayload:
-    StreamId:
-      Category: None
-      Name: None
-      Custom: 0
-    SignalValueType: 0
-    IntegerValue: 0
-    BooleanValue: 0
-    FloatValue: 0
-    StringValue: 
-    ColorValue: {r: 0, g: 0, b: 0, a: 0}
-    Vector2Value: {x: 0, y: 0}
-    Vector3Value: {x: 0, y: 0, z: 0}
-    Vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  ButtonId:
-    Category: None
-    Name: None
-    Custom: 0
-  ToggleId:
-    Category: Tab
-    Name: UIMenu
-    Custom: 1
-  CommandToggle: 0
-  ViewId:
-    Category: None
-    Name: None
-    Custom: 0
-  CommandShowHide: 0
 --- !u!114 &-5373288080484923018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,132 +106,11 @@ MonoBehaviour:
   CanBeDeleted: 1
   Passthrough: 1
   ClearGraphHistory: 0
-  Position: {x: 347, y: 309}
+  Position: {x: 348.24387, y: 309}
   Payload:
     StreamId:
-      Category: Music
-      Name: Nody
-      Custom: 1
-    SignalValueType: 0
-    IntegerValue: 0
-    BooleanValue: 0
-    FloatValue: 0
-    StringValue: 
-    ColorValue: {r: 0, g: 0, b: 0, a: 0}
-    Vector2Value: {x: 0, y: 0}
-    Vector3Value: {x: 0, y: 0, z: 0}
-    Vector4Value: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &-2767351905232799902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87c43f2597bc48340b6a8f2909b66d09, type: 3}
-  m_Name: Signal
-  m_EditorClassIdentifier: 
-  FlowGraphId: 935df7bc-58ca-403e-bb28-a1b03e41a6a9
-  NodeId: b8a1aea5-8ede-44e4-a24e-2bc7641de56c
-  NodeType: 0
-  NodeName: Signal
-  NodeDescription: 
-  InputPorts:
-  - NodeId: b8a1aea5-8ede-44e4-a24e-2bc7641de56c
-    PortId: 77eb7254-3d95-4ee1-aefa-3b196a6bda9f
-    Direction: 0
-    Capacity: 1
-    Connections:
-    - b558f6a2-9e70-49bd-9f63-95ddd1d4dd57
-    Value: 
-    ValueTypeQualifiedName: 
-    CanBeDeleted: 0
-    CanBeReordered: 0
-  OutputPorts:
-  - NodeId: b8a1aea5-8ede-44e4-a24e-2bc7641de56c
-    PortId: 40cc893b-a8bb-4c61-bdd5-7be32b23c766
-    Direction: 1
-    Capacity: 0
-    Connections:
-    - a2ee9227-035d-4b49-8cc3-d314a0efbea5
-    Value: 
-    ValueTypeQualifiedName: 
-    CanBeDeleted: 0
-    CanBeReordered: 0
-  RunUpdate: 0
-  RunFixedUpdate: 0
-  RunLateUpdate: 0
-  NodeState: 0
-  CanBeDeleted: 1
-  Passthrough: 1
-  ClearGraphHistory: 0
-  Position: {x: 0, y: 416}
-  Payload:
-    StreamId:
-      Category: Music
-      Name: Stop
-      Custom: 1
-    SignalValueType: 0
-    IntegerValue: 0
-    BooleanValue: 0
-    FloatValue: 0
-    StringValue: 
-    ColorValue: {r: 0, g: 0, b: 0, a: 0}
-    Vector2Value: {x: 0, y: 0}
-    Vector3Value: {x: 0, y: 0, z: 0}
-    Vector4Value: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &-1022704263188075556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87c43f2597bc48340b6a8f2909b66d09, type: 3}
-  m_Name: Signal
-  m_EditorClassIdentifier: 
-  FlowGraphId: 935df7bc-58ca-403e-bb28-a1b03e41a6a9
-  NodeId: f60ec9da-a056-4511-ad27-293e124a936b
-  NodeType: 0
-  NodeName: Signal
-  NodeDescription: 
-  InputPorts:
-  - NodeId: f60ec9da-a056-4511-ad27-293e124a936b
-    PortId: a2ee9227-035d-4b49-8cc3-d314a0efbea5
-    Direction: 0
-    Capacity: 1
-    Connections:
-    - 40cc893b-a8bb-4c61-bdd5-7be32b23c766
-    Value: 
-    ValueTypeQualifiedName: 
-    CanBeDeleted: 0
-    CanBeReordered: 0
-  OutputPorts:
-  - NodeId: f60ec9da-a056-4511-ad27-293e124a936b
-    PortId: ab034ba8-c4a8-4b5b-b4b9-1dbf4352a6fe
-    Direction: 1
-    Capacity: 0
-    Connections: []
-    Value: 
-    ValueTypeQualifiedName: 
-    CanBeDeleted: 0
-    CanBeReordered: 0
-  RunUpdate: 0
-  RunFixedUpdate: 0
-  RunLateUpdate: 0
-  NodeState: 0
-  CanBeDeleted: 1
-  Passthrough: 1
-  ClearGraphHistory: 0
-  Position: {x: 347, y: 416}
-  Payload:
-    StreamId:
-      Category: Music
-      Name: UIMenu
+      Category: Navigation
+      Name: About
       Custom: 1
     SignalValueType: 0
     IntegerValue: 0
@@ -320,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02761efe598a45c98fa1baf4d446c6a7, type: 3}
   m_Name: AppNody
   m_EditorClassIdentifier: 
-  EditorPosition: {x: 441, y: -5, z: 0}
+  EditorPosition: {x: 335, y: -24, z: 0}
   EditorScale: {x: 1.3225, y: 1.3225, z: 1}
   Id: 935df7bc-58ca-403e-bb28-a1b03e41a6a9
   GraphName: Flow Graph
@@ -339,9 +152,6 @@ MonoBehaviour:
   - {fileID: 8873501072658963051}
   - {fileID: 2584643417299666791}
   - {fileID: -4934940936190843952}
-  - {fileID: -8004742925440169184}
-  - {fileID: -2767351905232799902}
-  - {fileID: -1022704263188075556}
   - {fileID: 2318625539033996374}
   - {fileID: 4445825358677256859}
   - {fileID: 8673402858132437171}
@@ -443,7 +253,7 @@ MonoBehaviour:
     Custom: 0
   ToggleId:
     Category: Tab
-    Name: Signals
+    Name: Home
     Custom: 1
   CommandToggle: 0
   ViewId:
@@ -560,8 +370,8 @@ MonoBehaviour:
   Position: {x: 341, y: 106}
   Payload:
     StreamId:
-      Category: Music
-      Name: Reactor
+      Category: Navigation
+      Name: Interactive
       Custom: 1
     SignalValueType: 0
     IntegerValue: 0
@@ -672,7 +482,7 @@ MonoBehaviour:
     StreamId:
       Category: Music
       Name: Stop
-      Custom: 0
+      Custom: 1
     SignalValueType: 0
     IntegerValue: 0
     BooleanValue: 0
@@ -740,7 +550,7 @@ MonoBehaviour:
     Custom: 0
   ToggleId:
     Category: Tab
-    Name: Reactor
+    Name: Interactive
     Custom: 1
   CommandToggle: 0
   ViewId:
@@ -793,11 +603,11 @@ MonoBehaviour:
   CanBeDeleted: 1
   Passthrough: 1
   ClearGraphHistory: 0
-  Position: {x: 341, y: 207}
+  Position: {x: 341, y: 207.00002}
   Payload:
     StreamId:
-      Category: Music
-      Name: Signals
+      Category: Navigation
+      Name: Home
       Custom: 1
     SignalValueType: 0
     IntegerValue: 0
@@ -866,7 +676,7 @@ MonoBehaviour:
     Custom: 1
   ToggleId:
     Category: Tab
-    Name: Nody
+    Name: About
     Custom: 1
   CommandToggle: 0
   ViewId:
