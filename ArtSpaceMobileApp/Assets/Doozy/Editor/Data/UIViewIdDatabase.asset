@@ -16,6 +16,8 @@ MonoBehaviour:
     Items:
     - Category: Main
       Name: Home
+    - Category: Main
+      Name: Play
     - Category: More
       Name: Contact
     - Category: More

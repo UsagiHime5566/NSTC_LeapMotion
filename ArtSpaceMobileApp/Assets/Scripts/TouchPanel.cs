@@ -45,20 +45,20 @@ public class TouchPanel : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
         if(ball) (ball.transform as RectTransform).anchoredPosition = posInPanel;
 
-        if(createFish){
-            if((Time.time - lastCreateTime) > CreatePeriod){
-                lastCreateTime = Time.time;
+        // if(createFish){
+        //     if((Time.time - lastCreateTime) > CreatePeriod){
+        //         lastCreateTime = Time.time;
 
-                var fish = Instantiate(Prefab_fish, parentCanvas.transform);
+        //         var fish = Instantiate(Prefab_fish, parentCanvas.transform);
 
-                fish.rectTransform.anchoredPosition = posInPanel;
-            }
+        //         fish.rectTransform.anchoredPosition = posInPanel;
+        //     }
 
-            if((Time.time - lastSendTime) > sendPeriod){
-                string msg = "" + posInPanel.x + "," + posInPanel.y;
-                signal.SocketSend(msg);
-            }
-        }
+        //     if((Time.time - lastSendTime) > sendPeriod){
+        //         string msg = "" + posInPanel.x + "," + posInPanel.y;
+        //         signal.SocketSend(msg);
+        //     }
+        // }
 
         
     }
